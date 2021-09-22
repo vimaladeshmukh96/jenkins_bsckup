@@ -1,0 +1,23 @@
+Started by user [8mha:////4HVOz4VBGoeSfjZ0bgKCGX70+c6OGdSLRpVg5dtKas4EAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSM1OIMAByccMbBAAAA[0mmahesh
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c_build_project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c_build_project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vimaladeshmukh96/test_c_source.git # timeout=10
+Fetching upstream changes from https://github.com/vimaladeshmukh96/test_c_source.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/vimaladeshmukh96/test_c_source.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision b7013c84e975500d755c92c709cbeaa0c65ebce2 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b7013c84e975500d755c92c709cbeaa0c65ebce2 # timeout=10
+Commit message: "2 files added"
+ > git rev-list --no-walk b7013c84e975500d755c92c709cbeaa0c65ebce2 # timeout=10
+[c_build_project] $ /bin/sh -xe /tmp/jenkins2156164842082101227.sh
++ cd /var/lib/jenkins/workspace/c_build_project
++ make ABC.exe
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

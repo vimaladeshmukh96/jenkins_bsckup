@@ -1,0 +1,24 @@
+Started by user [8mha:////4HVOz4VBGoeSfjZ0bgKCGX70+c6OGdSLRpVg5dtKas4EAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSM1OIMAByccMbBAAAA[0mmahesh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job2
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/job2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vimaladeshmukh96/code_java_sourse.git # timeout=10
+Fetching upstream changes from https://github.com/vimaladeshmukh96/code_java_sourse.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/vimaladeshmukh96/code_java_sourse.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1143c484d2bf7f504660b2fc0ec7f740540f777c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1143c484d2bf7f504660b2fc0ec7f740540f777c # timeout=10
+Commit message: "files added to java"
+First time build. Skipping changelog.
+[job2] $ /bin/sh -xe /tmp/jenkins732035126031919200.sh
++ cd /var/lib/jenkins/workspace/job2
++ pom.xml mvn compile
+/tmp/jenkins732035126031919200.sh: line 4: pom.xml: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
